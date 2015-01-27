@@ -1,10 +1,11 @@
 宏  
+
 # assert 
+
 \<cassert\>
 
----
+`void assert(int expression)`
 
-`void assert(int expression)`  
 
 #### 评估断言
 
@@ -12,7 +13,7 @@
 
 虽然消息内容依赖于特定的库实现，但是它至少包括：断言失败的 _expression_ ，源文件的名字，和对应的行号。通常格式如下：
 
-> Assertion failed: __expression__, file __filename__, line __line__ __number__
+> Assertion failed: _expression_, file _filename_, line _line_ _number_
 
 
 #### 参数
@@ -37,7 +38,7 @@ expression 会被评估。如果这个 expression 等于 0，则会导致断言�
 
 #### 例子
 
-```
+```cpp
 /* assert example */
 #include <stdio.h>	/* printf */
 #include <assert.h> /* assert */
