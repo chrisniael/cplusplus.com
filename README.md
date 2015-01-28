@@ -6,7 +6,7 @@
 
 头文件                                   | 描述
 ---------------------------------------- | --------
-[<cassert>(assert.h)](cassert/README.md) | C 诊断库
+[<cassert>(assert.h)](C library/cassert/README.md) | C 诊断库
 
 
 #### 容器
