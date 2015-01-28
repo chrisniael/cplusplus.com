@@ -16,7 +16,7 @@
 > Assertion failed: _expression_, file _filename_, line _line_ _number_
 
 
-#### 参数
+## 参数
 
 `expression`
 
@@ -31,12 +31,12 @@ expression 会被评估。如果这个 expression 等于 0，则会导致断言�
 因此，`assert` 的设计是用来捕捉程序错误的，而不是用户或者运行时错误，在程序退出调试阶段后，通常都会使用 `NDEBUG` 来关闭这个宏。
 
 
-#### 返回值
+## 返回值
 
 无
 
 
-#### 例子
+## 例子
 
 ```cpp
 /* assert example */
