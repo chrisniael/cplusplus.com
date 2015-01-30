@@ -8,7 +8,7 @@ C 语言库
 
 头文件                                    | 描述
 ----------------------------------------- | -------
-[<cassert> (assert.h)](cassert/README.md) | C 诊断库
+[\<cassert\> (assert.h)](cassert/README.md) | C 诊断库
 
 
 
