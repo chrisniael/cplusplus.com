@@ -4,7 +4,7 @@
 
 \<cassert\>
 
-`void assert(int expression)`
+`void assert(int expression);`
 
 
 #### 评估断言
