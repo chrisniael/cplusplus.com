@@ -31,7 +31,7 @@
 
 ## 例子
 
-```
+```cpp
 /* isalnum example */
 #include <stdio.h>
 #include <ctype.h>
