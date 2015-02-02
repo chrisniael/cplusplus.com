@@ -6,7 +6,7 @@
 
 `int isalnum ( int c );`
 
-#### 检查字符是否是字母数字(alphanumeric)
+#### 检查字符是否是字母或数字(alphanumeric)
 
 检查字符 _c_ 是否是一个十进制数字或者是大写或小写字母。
 
