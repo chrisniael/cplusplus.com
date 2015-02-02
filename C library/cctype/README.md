@@ -19,7 +19,7 @@
 
 函数名                          | 描述
 ------------------------------- | ---------------------------------------------------------
-[isalnum](isalnum.md)           | 检查字符是否是字母数字(alphanumeric) (_函数_)
+[isalnum](isalnum.md)           | 检查字符是否是字母或数字(alphanumeric) (_函数_)
 [isalpha](isalpha.md)           | 检查字符是否是字母(alphabetic) (_函数_)
 [isblank (_c++11_)](isblank.md) | 检查字符是否是空白符(blank) (_函数_)
 [iscntrl](iscntrl.md)           | 检查字符是否是控制字符(control character) (_函数_)
