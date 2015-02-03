@@ -8,7 +8,7 @@
 
 #### 检查字符是否是控制字符(control character)
 
-在显示中，控制字符并不占据打印位置（这和在函数 [isprint](isprint.md) 中返回 _true_ 的可打印字符相反）。
+控制字符并不占据显示的打印位置（这和在函数 [isprint](isprint.md) 中返回 _true_ 的可打印字符相反）。
 
 对于标准 ASCII 字符集（在 "C" 环境中），控制字符是 ASCII 值在 0x00 (NUL) 到 0x1f (US) 之间的，加上 0x7f (DEL) 的字符。
 
