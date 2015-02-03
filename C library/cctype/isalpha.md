@@ -8,7 +8,7 @@
 
 #### 检查字符是否是字母(alphabetic)
 
-检查字符 _c_ 是否是一个字母。
+检查 _c_ 是否是一个字母。
 
 注意，判别一个字符是否是字母取决于使用环境。在默认的 "C" 环境中，只有当 [isupper](isupper.md) 和 [islower](islower.md) 返回 _true_ 的时候才是字母。
 
