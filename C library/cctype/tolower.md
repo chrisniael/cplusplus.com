@@ -30,7 +30,7 @@
 ## 例子
 
 ```cpp
-/* isalnum example */
+/* tolower example */
 #include <stdio.h>
 #include <ctype.h>
 
