@@ -23,7 +23,7 @@
 
 在其他的环境中，可能会有不同的字符被认为是空格，但是它们不可能让函数 [isalnum](isalnum.md) 返回 _true_。
 
-头文件 (\<cctype\>)[README.md] 的参考中，有标准 ASCII 字符集的各个字符在不同 _ctype_ 函数的返回值的详细图表。
+头文件 [\<cctype\>](README.md) 的参考中，有标准 ASCII 字符集的各个字符在不同 _ctype_ 函数的返回值的详细图表。
 
 在 C++ 中，这个函数的 locale-specific 模板版本 [isspace](../../Other/locale/isspace.md) 在头文件 [\<locale\>](../../Other/locale/README.md)中。
 

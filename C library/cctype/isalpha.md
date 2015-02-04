@@ -16,7 +16,7 @@
 使用其他的环境，只有当 [isupper](isupper.md) 或 [islower](islower.md) 返回 _true_ 时才是字母，其他还有一些被环境特定认为是字母的一些字符（在中情况下，这个字母字符不可能在函数 [iscntrl](iscntrl.md)，[isdigit](isdigit.md)，[ispunct](ispunct.md) 或 [isspace](isspace.md) 中返回 _true_ 。
 
 
-头文件 (\<cctype\>)[README.md] 的参考中，有标准 ASCII 字符集的各个字符在不同 _ctype_ 函数的返回值的详细图表。
+头文件 [\<cctype\>](README.md) 的参考中，有标准 ASCII 字符集的各个字符在不同 _ctype_ 函数的返回值的详细图表。
 
 在 C++ 中，这个函数的 locale-specific 模板版本 [isalpha](../../Other/locale/isalpha.md) 在头文件 [\<locale\>](../../Other/locale/README.md)中。
 

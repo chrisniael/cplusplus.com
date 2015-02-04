@@ -13,7 +13,7 @@
 
 注意，判别一个字符是否是大写字母取决于使用环境。在默认的 "C" 环境中，大写字母有：_A_ _B_ _C_ _D_ _E_ _F_ _G_ _H_ _I_ _J_ _K_ _L_ _M_ _N_ _O_ _P_ _Q_ _R_ _S_ _T_ _U_ _V_ _W_ _X_ _Y_ _Z_。
 
-头文件 (\<cctype\>)[README.md] 的参考中，有标准 ASCII 字符集的各个字符在不同 _ctype_ 函数的返回值的详细图表。
+头文件 [\<cctype\>](README.md) 的参考中，有标准 ASCII 字符集的各个字符在不同 _ctype_ 函数的返回值的详细图表。
 
 在 C++ 中，这个函数的 locale-specific 模板版本 [isupper](../../Other/locale/isupper.md) 在头文件 [\<locale\>](../../Other/locale/README.md)中。
 
