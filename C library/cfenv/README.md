@@ -15,7 +15,7 @@
 函数名                                | 描述
 ------------------------------------- | -------------------------
 [feclearexcept](feclearexcept.md)     | 清除浮点异常 (_函数_)
-[feraiseexcept](feraiseexcept.md)     | 提高浮点异常 (_函数_)
+[feraiseexcept](feraiseexcept.md)     | 触发浮点异常 (_函数_)
 [fegetexceptflag](fegetexceptflag.md) | 获得浮点异常标志 (_函数_)
 [fesetexceptflag](fesetexceptflag.md) | 设置浮点异常标志 (_函数_)
 
