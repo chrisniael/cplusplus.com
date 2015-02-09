@@ -11,4 +11,4 @@
 ----------------- | ---------------------
 [errno](errno.md) | 最后一个错误号 (_宏_)
 
-加上至少3个附加的常量宏：_EDOM_，_erange_ 和 _EILSEQ_ （具体细节请查看 [errno](errno.md)）。
+加上至少3个附加的常量宏：_EDOM_，_ERANGE_ 和 _EILSEQ_ （具体细节请查看 [errno](errno.md)）。
