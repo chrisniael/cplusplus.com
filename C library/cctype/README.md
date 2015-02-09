@@ -61,6 +61,6 @@ ASCII值       | 字符                               | iscntrl | isblank | issp
 0x61 .. 0x66  | abcdef                             |         |         |         |         |    x    |    x    |         |    x     |    x    |         |    x    |    x
 0x67 .. 0x7A  | ghijklmnopqrstuvwxyz               |         |         |         |         |    x    |    x    |         |          |    x    |         |    x    |    x
 0x7B .. 0x7E  | {\|}                               |         |         |         |         |         |         |         |          |         |    x    |    x    |    x
-0x7F          | (DEL)                              |         |         |         |         |         |         |         |          |         |         |         | 
+0x7F          | (DEL)                              |    x    |         |         |         |         |         |         |          |         |         |         | 
 
 扩展字符集 (大于 0x7F) 可能会因为环境和平台的缘故而属于不同的种类。通常规则是，在大多数支持扩展字符集的平台下，标准 C 环境的 _isgraph_ 和 _isprint_ 函数返回 _true_ 。
