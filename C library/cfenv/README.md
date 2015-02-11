@@ -57,7 +57,7 @@
 
 宏名                                | 描述
 ----------------------------------- | -----------------------
-[FE\_DIVBYZERO](FE_DIVBYZERO.md)    | Pole error异常 (_宏_)
+[FE\_DIVBYZERO](FE_DIVBYZERO.md)    | 极异常 (_宏_)
 [FE\_INEXACT](FE_INEXACT.md)        | 不精确的结果异常 (_宏_)
 [FE\_INVALID](FE_INVALID.md)        | 无效参数异常 (_宏_)
 [FE\_OVERFLOW](FE_OVERFLOW.md)      | 向上溢出错误异常 (_宏_)

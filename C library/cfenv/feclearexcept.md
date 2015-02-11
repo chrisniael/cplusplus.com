@@ -21,7 +21,7 @@
 
 宏值                              | 描述
 --------------------------------- | --------------------------------------------------------------
-[FE_DIVBYZERO](FE_DIVBYZERO.md)   | Pole error：被 0 除，或一些其他渐进无限的结果（从有限的参数）。
+[FE_DIVBYZERO](FE_DIVBYZERO.md)   | 极错误：被 0 除，或一些其他渐进无限的结果（从有限的参数）。
 [FE_INEXACT](FE_INEXACT.md)       | 不精确：结果不准确。
 [FE_INVALID](FE_INVALID.md)       | 作用域错误：至少一个参数是函数没有定义的值。
 [FE_OVERFLOW](FE_OVERFLOW.md)     | 上溢错误：结果太大了，超出了返回值类型能表示的数量级。
