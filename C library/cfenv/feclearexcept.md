@@ -10,7 +10,7 @@
 
 试图清除 _excepts_ 指定的浮点异常。
 
-调用这个函数的程序需要确保在本次函数调用中，编译指示 [FENV_ACCESS](FENV_ACCESS.md) 已经开启。
+调用这个函数的程序需要确保在本次函数调用时，编译指示 [FENV_ACCESS](FENV_ACCESS.md) 已经开启。
 
 
 ## 参数
