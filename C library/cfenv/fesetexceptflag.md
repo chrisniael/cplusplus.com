@@ -32,7 +32,7 @@ Attempts to set the exceptions indicated by excepts with the states stored in th
 [FE_UNDERFLOW](FE_UNDERFLOW.md)   | 下一错误：结果太小了，超出了返回值类型能表示的数量级。
 [FE_ALL_EXCEPT](FE_ALL_EXCEPT.md) | 所有异常（选择实现支持的所有异常）
 
-特定的库实现可能会支持附加的 _浮点异常_ 值（和它们对应的同样以 FE_ 开头的宏）。
+特定的库实现可能会支持附加的 _浮点异常_ 值（它们对应的宏同样以 FE_ 开头的宏）。
 
 #### C99
 
