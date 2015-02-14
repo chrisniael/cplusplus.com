@@ -1,21 +1,21 @@
 函数
 
-#fegetround
+# fegetround
 
 `int fegetround(void);`
 
-## 获取舍入方向模式
+#### 获取舍入方向模式
 
 返回当前 _浮点环境_ 中表明舍入方向模式的值。
 
 这个函数的返回值不一定和 [cfloat](../cfloat/README.md) 中 _FLT_ROUNDS_ 的值相同。
 
-# 参数
+## 参数
 
 无
 
 
-# 返回值
+## 返回值
 
 如果这个函数能决定当前舍入模式，并且被当前实现支持，那么函数返回值对应的宏定义如下：
 
@@ -37,7 +37,7 @@
 至少上面所有的宏值都定义在 [\<fenv.h\>](README.md) 中（即使实现不支持）。
 
 
-# 例子
+## 例子
 
 ```cpp
 /* fegetround / rint example */
