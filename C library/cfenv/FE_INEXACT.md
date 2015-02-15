@@ -26,7 +26,7 @@ _不精确异常_ 被触发用来提醒操作的返回类型不能表示准确�
 #### C99
 
 库可能定义在 [\<fenv.h\>](README.md)，仅仅支持上面这些宏值（其他可能没有被定义）。  
-_FE_DIVBYZERO_ 总是被定义，如果 [math_errhandling](../cmath/math_errhandling.md) 有 _MATH_ERREXCEPT_ 集合。 
+_FE_INEXACT_ 总是被定义，如果 [math_errhandling](../cmath/math_errhandling.md) 有 _MATH_ERREXCEPT_ 集合。 
 
 #### C++11
 
