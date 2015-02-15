@@ -28,7 +28,7 @@ _FE_INVALID_ 被定义为 2 的整数次方，允许和多个 _浮点异常_ 组
 #### C99
 
 库可能定义在 [\<fenv.h\>](README.md)，仅仅支持上面这些宏值（其他可能没有被定义）。  
-_FE_DIVBYZERO_ 总是被定义，如果 [math_errhandling](../cmath/math_errhandling.md) 有 _MATH_ERREXCEPT_ 集合。 
+_FE_INVALID_总是被定义，如果 [math_errhandling](../cmath/math_errhandling.md) 有 _MATH_ERREXCEPT_ 集合。 
 
 #### C++11
 
