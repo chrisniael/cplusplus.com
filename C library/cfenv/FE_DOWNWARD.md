@@ -2,7 +2,7 @@
 
 # FE_DOWNWARD (C++11)
 
-这个宏展开成一个 _int_ 型值，来为函数 [fegetround](fegetround.md) 和 [fesetround](fesetround.md) 表示 _向下取整方向模式_ 。
+这个宏展开成一个 _int_ 型值，来为函数 [fegetround](fegetround.md) 和 [fesetround](fesetround.md) 表示 _向下舍入方向模式_ 。
 
 向下舍入 x 就是选择不大于 x 的最大的值。
 
