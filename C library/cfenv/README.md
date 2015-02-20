@@ -1,6 +1,6 @@
 头文件
 
-# \<cfenv\> (fenv.h)
+# \<cfenv\> (fenv.h) (C++11)
 
 #### 浮点环境
 
