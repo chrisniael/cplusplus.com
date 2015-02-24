@@ -1,6 +1,6 @@
 函数
 
-# fegetround
+# fegetround (C++11)
 
 `int fegetround(void);`
 
