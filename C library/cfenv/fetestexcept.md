@@ -19,14 +19,14 @@
 
 位掩码值：支持的任何浮点异常数字的组合（按位 OR）：
 
-宏值                              | 描述
---------------------------------- | --------------------------------------------------------------
-[FE_DIVBYZERO](FE_DIVBYZERO.md)   | 极错误：被 0 除，或一些其他渐进无限的结果（从有限的参数）。
-[FE_INEXACT](FE_INEXACT.md)       | 不精确：结果不准确。
-[FE_INVALID](FE_INVALID.md)       | 作用域错误：至少一个参数是函数没有定义的值。
-[FE_OVERFLOW](FE_OVERFLOW.md)     | 上溢错误：结果太大了，超出了返回值类型能表示的数量级。
-[FE_UNDERFLOW](FE_UNDERFLOW.md)   | 下一错误：结果太小了，超出了返回值类型能表示的数量级。
-[FE_ALL_EXCEPT](FE_ALL_EXCEPT.md) | 所有异常（选择实现支持的所有异常）
+| 宏值                              | 描述                                                       |
+| --------------------------------- | ---------------------------------------------------------- |
+| [FE_DIVBYZERO](FE_DIVBYZERO.md)   | 极错误：被 0 除，或一些其他渐进无限的结果（从有限的参数）。|
+| [FE_INEXACT](FE_INEXACT.md)       | 不精确：结果不准确。                                       |
+| [FE_INVALID](FE_INVALID.md)       | 作用域错误：至少一个参数是函数没有定义的值。               |
+| [FE_OVERFLOW](FE_OVERFLOW.md)     | 上溢错误：结果太大了，超出了返回值类型能表示的数量级。     |
+| [FE_UNDERFLOW](FE_UNDERFLOW.md)   | 下一错误：结果太小了，超出了返回值类型能表示的数量级。     |
+| [FE_ALL_EXCEPT](FE_ALL_EXCEPT.md) | 所有异常（选择实现支持的所有异常）                         |
 
 特定的库实现可能会支持附加的 _浮点异常_ 值（它们对应的宏同样以 FE_ 开头的宏）。
 
@@ -112,8 +112,8 @@ FE_OVERFLOW
 
 ## 另请参见
 
-函数                              | 描述
---------------------------------- | ---------------------
-[feraiseexcept](feraiseexcept.md) | 触发浮点异常 (_函数_)
-[feclearexcept](feclearexcept.md) | 清楚浮点异常 (_函数_)
-[feholdexcept](feholdexcept.md)   | 保留浮点异常 (_函数_)
+| 函数                              | 描述                  |
+| --------------------------------- | --------------------- |
+| [feraiseexcept](feraiseexcept.md) | 触发浮点异常 (_函数_) |
+| [feclearexcept](feclearexcept.md) | 清楚浮点异常 (_函数_) |
+| [feholdexcept](feholdexcept.md)   | 保留浮点异常 (_函数_) |
