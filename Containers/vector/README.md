@@ -11,7 +11,7 @@
 类名                           | 描述
 ------------------------------ | ---------------------
 [vector](vector.md)            | 向量 (类模板)
-[vector<bool>](vector-bool.md) | bool 向量 (类模板特化)
+[vector\<bool\>](vector-bool.md) | bool 向量 (类模板特化)
 
 ## 函数
 
