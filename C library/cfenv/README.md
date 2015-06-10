@@ -1,6 +1,6 @@
 头文件
 
-# \<cfenv\> (fenv.h) (C++11)
+# &lt;cfenv&gt; (fenv.h) (C++11)
 
 #### 浮点环境
 
@@ -47,8 +47,8 @@
 
 类型名                     | 描述
 -------------------------- | ----------------------
-[fenv\_t](fenv_t.md)       | 浮点环境类型 (_类型_)
-[fexcept\_t](fexcept_t.md) | 浮点异常类型 (_类型_)
+[fenv_t](fenv_t.md)       | 浮点环境类型 (_类型_)
+[fexcept_t](fexcept_t.md) | 浮点异常类型 (_类型_)
 
 
 ## 宏常量
@@ -57,28 +57,28 @@
 
 宏名                                | 描述
 ----------------------------------- | -----------------------
-[FE\_DIVBYZERO](FE_DIVBYZERO.md)    | 极异常 (_宏_)
-[FE\_INEXACT](FE_INEXACT.md)        | 不精确的结果异常 (_宏_)
-[FE\_INVALID](FE_INVALID.md)        | 无效参数异常 (_宏_)
-[FE\_OVERFLOW](FE_OVERFLOW.md)      | 向上溢出错误异常 (_宏_)
-[FE\_UNDERFLOW](FE_UNDERFOW.md)     | 向下溢出错误异常 (_宏_)
-[FE\_ALL\_EXCEPT](FE_ALL_EXCEPT.md) | 所有异常 (_宏_)
+[FE_DIVBYZERO](FE_DIVBYZERO.md)    | 极异常 (_宏_)
+[FE_INEXACT](FE_INEXACT.md)        | 不精确的结果异常 (_宏_)
+[FE_INVALID](FE_INVALID.md)        | 无效参数异常 (_宏_)
+[FE_OVERFLOW](FE_OVERFLOW.md)      | 向上溢出错误异常 (_宏_)
+[FE_UNDERFLOW](FE_UNDERFOW.md)     | 向下溢出错误异常 (_宏_)
+[FE_ALL_EXCEPT](FE_ALL_EXCEPT.md) | 所有异常 (_宏_)
 
 
 ### 舍入方向
 
 宏名                               | 描述
 ---------------------------------- | -------------------
-[FE\_DOWNWARD](FE_DOWNWARD.md)     | 向下舍入模式 (_宏_)
-[FE\_TONEAREST](FE_TONEAREST.md)   | 四舍五入模式 (_宏_)
-[FE\_TOWARDZERO](FE_TOWARDZERO.md) | 朝零舍入模式 (_宏_)
-[FE\_UPWARD](FE_UPWARD.md)         | 向上舍入模式 (_宏_)
+[FE_DOWNWARD](FE_DOWNWARD.md)     | 向下舍入模式 (_宏_)
+[FE_TONEAREST](FE_TONEAREST.md)   | 四舍五入模式 (_宏_)
+[FE_TOWARDZERO](FE_TOWARDZERO.md) | 朝零舍入模式 (_宏_)
+[FE_UPWARD](FE_UPWARD.md)         | 向上舍入模式 (_宏_)
 
 ### 整个环境
 
 宏名                          | 描述
 ----------------------------- | ---------------
-[FE\_DFL\_ENV](FE_DFL_ENV.md) | 默认环境 (_宏_)
+[FE_DFL_ENV](FE_DFL_ENV.md) | 默认环境 (_宏_)
 
 
 
@@ -86,4 +86,4 @@
 
 编译指示名                     | 描述
 ------------------------------ | ------------------------
-[FENV\_ACCESS](FENV_ACCESS.md) | 访问浮点环境 (_编译指示_)
+[FENV_ACCESS](FENV_ACCESS.md) | 访问浮点环境 (_编译指示_)

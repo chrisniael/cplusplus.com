@@ -2,7 +2,7 @@
 
 # islower
 
-\<cctype\>
+&lt;cctype&gt;
 
 `int islower ( int c );`
 
@@ -13,9 +13,9 @@
 
 注意，判别一个字符是否是小写字母取决于使用环境。在默认的 "C" 环境中，小写字母有：_a_ _b_ _c_ _d_ _e_ _f_ _g_ _h_ _i_ _j_ _k_ _l_ _m_ _n_ _o_ _p_ _q_ _r_ _s_ _t_ _u_ _v_ _w_ _x_ _y_ _z_。
 
-头文件 [\<cctype\>](README.md) 的参考中，有标准 ASCII 字符集的各个字符在不同 _ctype_ 函数的返回值的详细图表。
+头文件 [&lt;cctype&gt;](README.md) 的参考中，有标准 ASCII 字符集的各个字符在不同 _ctype_ 函数的返回值的详细图表。
 
-在 C++ 中，这个函数的 locale-specific 模板版本 [islower](../../Other/locale/islower.md) 在头文件 [\<locale\>](../../Other/locale/README.md)中。
+在 C++ 中，这个函数的 locale-specific 模板版本 [islower](../../Other/locale/islower.md) 在头文件 [&lt;locale&gt;](../../Other/locale/README.md)中。
 
 
 ## 参数

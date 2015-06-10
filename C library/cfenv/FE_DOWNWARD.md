@@ -20,8 +20,8 @@
 
 宏/函数                            | 描述
 ---------------------------------- | -------------------------
-[FE\_TONEAREST](FE_TONEAREST.md)   | 四舍五入模式 (_宏_)
-[FE\_TOWARDZERO](FE_TOWARDZERO.md) | 朝零舍入模式 (_宏_)
-[FE\_UPWARD](FE_UPWARD.md)         | 向上舍入模式 (_宏_)
+[FE_TONEAREST](FE_TONEAREST.md)   | 四舍五入模式 (_宏_)
+[FE_TOWARDZERO](FE_TOWARDZERO.md) | 朝零舍入模式 (_宏_)
+[FE_UPWARD](FE_UPWARD.md)         | 向上舍入模式 (_宏_)
 [fegetround](fegetround.md)        | 获得舍入方向模式 (_函数_)
 [fesetround](fesetround.md)        | 设置舍入方向模式 (_函数_)

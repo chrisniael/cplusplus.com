@@ -37,7 +37,7 @@
 		* [FE_INEXACT](C library/cfenv/FE_INEXACT.md)
 		* [FE_INVALID](C library/cfenv/FE_INVALID.md)
 		* [FE_OVERFLOW](C library/cfenv/FE_OVERFLOW.md)
-		* [FE_UNDERFLOW](C library/cfenv/FE_UNDERFOW.md)
+		* [FE_UNDERFLOW](C library/cfenv/FE_UNDERFLOW.md)
 		* [FE_ALL_EXCEPT](C library/cfenv/FE_ALL_EXCEPT.md)
 		* [FE_DOWNWARD](C library/cfenv/FE_DOWNWARD.md)
 		* [FE_TONEAREST](C library/cfenv/FE_TONEAREST.md)

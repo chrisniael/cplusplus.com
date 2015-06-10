@@ -2,7 +2,7 @@
 
 # ispunct
 
-\<cctype\>
+&lt;cctype&gt;
 
 `int ispunct ( int c );`
 
@@ -14,9 +14,9 @@
 
 其他环境可能会把不同的字符当作标点字符，但无论哪种情况，它们肯定是 [isgraph](isgraph.md) 但不是 [isalnum](isalnum.md)。
 
-头文件 [\<cctype\>](README.md) 的参考中，有标准 ASCII 字符集的各个字符在不同 _ctype_ 函数的返回值的详细图表。
+头文件 [&lt;cctype&gt;](README.md) 的参考中，有标准 ASCII 字符集的各个字符在不同 _ctype_ 函数的返回值的详细图表。
 
-在 C++ 中，这个函数的 locale-specific 模板版本 [ispunct](../../Other/locale/ispunct.md) 在头文件 [\<locale\>](../../Other/locale/README.md)中。
+在 C++ 中，这个函数的 locale-specific 模板版本 [ispunct](../../Other/locale/ispunct.md) 在头文件 [&lt;locale&gt;](../../Other/locale/README.md)中。
 
 
 ## 参数

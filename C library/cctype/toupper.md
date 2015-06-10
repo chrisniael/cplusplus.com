@@ -2,7 +2,7 @@
 
 # toupper
 
-\<cctype\>
+&lt;cctype&gt;
 
 `int toupper ( int c );`
 
@@ -14,7 +14,7 @@
 
 在其他环境中，如果一个小写字母有多个对应的大写字母，那么对于同一个值 _c_，这个函数总是返回同样的字符。
 
-在 C++ 中，这个函数的 locale-specific 模板版本 [toupper](../../Other/locale/toupper.md) 在头文件 [\<locale\>](../../Other/locale/README.md)中。
+在 C++ 中，这个函数的 locale-specific 模板版本 [toupper](../../Other/locale/toupper.md) 在头文件 [&lt;locale&gt;](../../Other/locale/README.md)中。
 
 
 ## 参数

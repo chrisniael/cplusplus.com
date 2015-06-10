@@ -27,20 +27,20 @@ _FE_INVALID_ 被定义为 2 的整数次方，允许和多个 _浮点异常_ 组
 
 #### C99
 
-库可能定义在 [\<fenv.h\>](README.md)，仅仅支持上面这些宏值（其他可能没有被定义）。  
-_FE_INVALID_总是被定义，如果 [math_errhandling](../cmath/math_errhandling.md) 有 _MATH_ERREXCEPT_ 集合。 
+库可能定义在 [&lt;fenv.h&gt;](README.md)，仅仅支持上面这些宏值（其他可能没有被定义）。  
+_FE_INVALID_总是被定义，如果 [math_errhandling](../cmath/math_errhandling.md) 有 _MATH_ERREXCEPT_ 集合。
 
 #### C++11
 
-至少上面所有的宏值都定义在 [\<fenv.h\>](README.md) 中（即使实现不支持）。
+至少上面所有的宏值都定义在 [&lt;fenv.h&gt;](README.md) 中（即使实现不支持）。
 
 
 ## 另请参见
 
 宏名                                | 描述
 ----------------------------------- | -----------------------
-[FE\_DIVBYZERO](FE_DIVBYZERO.md)    | 极异常 (_宏_)
-[FE\_INEXACT](FE_INEXACT.md)        | 不精确的结果异常 (_宏_)
-[FE\_OVERFLOW](FE_OVERFLOW.md)      | 向上溢出错误异常 (_宏_)
-[FE\_UNDERFLOW](FE_UNDERFOW.md)     | 向下溢出错误异常 (_宏_)
-[FE\_ALL\_EXCEPT](FE_ALL_EXCEPT.md) | 所有异常 (_宏_)
+[FE_DIVBYZERO](FE_DIVBYZERO.md)    | 极异常 (_宏_)
+[FE_INEXACT](FE_INEXACT.md)        | 不精确的结果异常 (_宏_)
+[FE_OVERFLOW](FE_OVERFLOW.md)      | 向上溢出错误异常 (_宏_)
+[FE_UNDERFLOW](FE_UNDERFOW.md)     | 向下溢出错误异常 (_宏_)
+[FE_ALL_EXCEPT](FE_ALL_EXCEPT.md) | 所有异常 (_宏_)

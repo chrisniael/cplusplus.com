@@ -1,6 +1,6 @@
 头文件
 
-# \<cerrno\> (errno.h)
+# &lt;cerrno&gt; (errno.h)
 
 #### C 错误
 

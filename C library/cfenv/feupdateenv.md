@@ -52,7 +52,7 @@ int main()
 	printf("log(0.0): %f\n", log_zerook(0.0));
 	if(!fetestexcept(FE_ALL_EXCEPT));
 		puts("no exceptions raised");
-	
+
 	return 0;
 }
 ```

@@ -2,7 +2,7 @@
 
 # feraiseexcept (C++11)
 
-\<cfenv\>
+&lt;cfenv&gt;
 
 `int feraiseexcept(int excepts);`
 
@@ -34,11 +34,11 @@
 
 #### C99
 
-库可能定义在 [\<fenv.h\>](README.md)，仅仅支持上面这些宏值（其他可能没有被定义）。
+库可能定义在 [&lt;fenv.h&gt;](README.md)，仅仅支持上面这些宏值（其他可能没有被定义）。
 
 #### C++11
 
-至少上面所有的宏值都定义在 [\<fenv.h\>](README.md) 中（即使实现不支持）。
+至少上面所有的宏值都定义在 [&lt;fenv.h&gt;](README.md) 中（即使实现不支持）。
 
 
 ## 返回值

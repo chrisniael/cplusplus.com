@@ -6,7 +6,7 @@
 
 #### 所有异常
 
-这个宏展开成一个 _int_ 型的值，它组合了所有定义在 [\<cfenv\>](../README.md) 中的 _浮点异常_ 值（用按位 OR  ）。
+这个宏展开成一个 _int_ 型的值，它组合了所有定义在 [&lt;cfenv&gt;](../README.md) 中的 _浮点异常_ 值（用按位 OR  ）。
 
 如果实现不支持 _浮点异常_ ，那么这个宏被定义为 0 。
 
@@ -36,9 +36,9 @@
 
 宏名                              | 描述
 --------------------------------- | -----------------------
-[FE\_DIVBYZERO](FE_DIVBYZERO.md)  | 极异常 (_宏_)
-[FE\_INEXACT](FE_INEXACT.md)      | 不精确的结果异常 (_宏_)
-[FE\_INVALID](FE_INVALID.md)      | 无效参数异常 (_宏_)
-[FE\_OVERFLOW](FE_OVERFLOW.md)    | 向上溢出错误异常 (_宏_)
-[FE\_UNDERFLOW](FE_UNDERFOW.md)   | 向下溢出错误异常 (_宏_)
+[FE_DIVBYZERO](FE_DIVBYZERO.md)  | 极异常 (_宏_)
+[FE_INEXACT](FE_INEXACT.md)      | 不精确的结果异常 (_宏_)
+[FE_INVALID](FE_INVALID.md)      | 无效参数异常 (_宏_)
+[FE_OVERFLOW](FE_OVERFLOW.md)    | 向上溢出错误异常 (_宏_)
+[FE_UNDERFLOW](FE_UNDERFOW.md)   | 向下溢出错误异常 (_宏_)
 [feraiseexcept](feraiseexcept.md) | 触发浮点异常 (_函数_)

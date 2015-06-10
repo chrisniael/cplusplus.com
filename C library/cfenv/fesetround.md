@@ -19,20 +19,20 @@
 
 宏值                               | 描述
 ---------------------------------- | -------------------
-[FE\_DOWNWARD](FE_DOWNWARD.md)     | 向下舍入模式 (_宏_)
-[FE\_TONEAREST](FE_TONEAREST.md)   | 四舍五入模式 (_宏_)
-[FE\_TOWARDZERO](FE_TOWARDZERO.md) | 朝零舍入模式 (_宏_)
-[FE\_UPWARD](FE_UPWARD.md)         | 向上舍入模式 (_宏_)
+[FE_DOWNWARD](FE_DOWNWARD.md)     | 向下舍入模式 (_宏_)
+[FE_TONEAREST](FE_TONEAREST.md)   | 四舍五入模式 (_宏_)
+[FE_TOWARDZERO](FE_TOWARDZERO.md) | 朝零舍入模式 (_宏_)
+[FE_UPWARD](FE_UPWARD.md)         | 向上舍入模式 (_宏_)
 
 特定的库实现可能会支持附加的 _浮点舍入方向_ 值（它们对应的宏同样以 FE_ 开头的宏）。
 
 #### C99
 
-库可能定义在 [\<fenv.h\>](README.md)，仅仅支持上面这些宏值（其他可能没有被定义）。
+库可能定义在 [&lt;fenv.h&gt;](README.md)，仅仅支持上面这些宏值（其他可能没有被定义）。
 
 #### C++11
 
-至少上面所有的宏值都定义在 [\<fenv.h\>](README.md) 中（即使实现不支持）。
+至少上面所有的宏值都定义在 [&lt;fenv.h&gt;](README.md) 中（即使实现不支持）。
 
 
 ## 返回值
