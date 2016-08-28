@@ -54,19 +54,20 @@ vector 容器可能会分配一些额外的存储空间来适应可能的增长�
 
 #### C++98
 
-类型名          | 定义                   | 注释
---------------- | -----------------------|----------------------------------
-value_type      | 第一个模板参数 (T)     | 
-allocator_type  | 第二个模板参数 (Alloc) | 默认值为：[allocator](../../../Other/memory/allocator/README.md)&lt;value_type&gt;
-reference       | allocator_type::reference | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type&
-const_reference | allocator_type::const_reference | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type&
-pointer         | allocator_type::pointer | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type*
-const_pointer   | allocator_type::const_pointer | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type*
-iterator        | 一个指向 value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) | 可以转化为 const_iterator
-const_iterator  | 一个指向 const value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) |
+类型名           | 定义                   | 注释
+---------------- | -----------------------|----------------------------------
+value_type       | 第一个模板参数 (T)     | 
+allocator_type   | 第二个模板参数 (Alloc) | 默认值为：[allocator](../../../Other/memory/allocator/README.md)&lt;value_type&gt;
+reference        | allocator_type::reference | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type&
+const_reference  | allocator_type::const_reference | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type&
+pointer          | allocator_type::pointer | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type*
+const_pointer    | allocator_type::const_pointer | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type*
+iterator         | 一个指向 value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) | 可以转化为 const_iterator
+const_iterator   | 一个指向 const value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) |
 reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;iterator&gt; |
 const_reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;const_iterator&gt; |
-
+difference_type | 一个有符号整数类型，相当于：iterator_traits<iterator>::difference_type | 通常和 [ptrdiff_t](../../../C library/cstddef/ptrdiff_t) 一样
+size_type       | 一个无符号整数类型，可以表示任何 difference_type 的非负值 | 通常和 [size_t](../../../C library/cstddef/size_t.md) 一样
 
 #### C++11
 
