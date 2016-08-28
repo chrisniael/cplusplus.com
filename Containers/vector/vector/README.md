@@ -18,7 +18,7 @@ vector 容器可能会分配一些额外的存储空间来适应可能的增长�
 
 因此，和数组相比，vector 会消耗更多的内存来换取管理存储以及动态增长的高效性。
 
-与其他动态序列式容器([deques](../deque/deque/README.md)，[lists](../list/list/README.md) 和 [forward_lists](../forward_list/forward_list/README.md))相比，vector 访问它的元素还是很高效的，在尾部添加和移除元素相对也很高效。在除了尾部以外的位置插入或移除元素，vector 都没有其他容器高效，并且比 lists 和 forward_lists 拥有更少的稳定的迭代器（迭代器会失效）。
+与其他动态序列式容器([deques](../../deque/deque/README.md)，[lists](../list/list/README.md) 和 [forward_lists](../forward_list/forward_list/README.md))相比，vector 访问它的元素还是很高效的，在尾部添加和移除元素相对也很高效。在除了尾部以外的位置插入或移除元素，vector 都没有其他容器高效，并且比 [lists](../../list/list/README.md) 和 [forward_lists](../../forward_list/forward_list/README.md) 拥有更少的稳定的迭代器（迭代器会失效）。
 
 
 ## 容器属性
@@ -41,10 +41,40 @@ vector 容器可能会分配一些额外的存储空间来适应可能的增长�
 `T`
 
 元素的类型。  
-仅仅当 T 保证移动的时候不抛出异常，实现才能在重新分配内存的时候进行优化，用移动元素的方式代替拷贝。  
+仅仅当 T [保证移动的时候不抛出异常](../../../Other/type_traits/is_nothrow_move_constructible.md)，实现才能在重新分配内存的时候进行优化，用移动元素的方式代替拷贝。  
 别名是成员类型 vector::value_type
 
 `Alloc`
 
-内存分配器对象的类型，用来定义存储分配器模型。默认使用 allocator 类模板，它定义了最简单的内存分配模型并且是与值无关的。  
+内存分配器对象的类型，用来定义存储分配器模型。默认使用 [allocator](../../../Other/memory/allocator/README.md) 类模板，它定义了最简单的内存分配模型并且是与值无关的。  
 别名是成员类型 vector::allocator_type
+
+
+## 成员类型
+
+#### C++98
+
+类型名          | 定义                   | 注释
+--------------- | ----------------------------------------------------------
+value_type      | 第一个模板参数 (T)     | 
+allocator_type  | 第二个模板参数 (Alloc) | 默认值为：[allocator](../../../Other/memory/allocator/README.md)<value_type>
+reference       | allocator_type::reference | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type&
+const_reference | allocator_type::const_reference | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type&
+pointer         | allocator_type::pointer | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type*
+const_pointer   | allocator_type::const_pointer | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type*
+iterator        | 一个指向 value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) | 可以转化为 const_iterator
+const_iterator  | 一个指向 const value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) |
+reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)<iterator> |
+const_reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)<const_iterator> |
+
+
+#### C++11
+
+
+## 成员函数
+
+
+## 非成员函数重载
+
+
+## 模板特殊化
