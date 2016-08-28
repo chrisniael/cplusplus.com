@@ -57,15 +57,15 @@ vector 容器可能会分配一些额外的存储空间来适应可能的增长�
 类型名          | 定义                   | 注释
 --------------- | -----------------------|----------------------------------
 value_type      | 第一个模板参数 (T)     | 
-allocator_type  | 第二个模板参数 (Alloc) | 默认值为：[allocator](../../../Other/memory/allocator/README.md)<value_type>
+allocator_type  | 第二个模板参数 (Alloc) | 默认值为：[allocator](../../../Other/memory/allocator/README.md)&lt;value_type&gt;
 reference       | allocator_type::reference | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type&
 const_reference | allocator_type::const_reference | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type&
 pointer         | allocator_type::pointer | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type*
 const_pointer   | allocator_type::const_pointer | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type*
 iterator        | 一个指向 value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) | 可以转化为 const_iterator
 const_iterator  | 一个指向 const value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) |
-reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)<iterator> |
-const_reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)<const_iterator> |
+reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;iterator&gt; |
+const_reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;const_iterator&gt; |
 
 
 #### C++11
