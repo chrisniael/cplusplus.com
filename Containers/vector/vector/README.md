@@ -55,7 +55,7 @@ vector 容器可能会分配一些额外的存储空间来适应可能的增长�
 #### C++98
 
 类型名          | 定义                   | 注释
---------------- | ----------------------------------------------------------
+--------------- | -----------------------|----------------------------------
 value_type      | 第一个模板参数 (T)     | 
 allocator_type  | 第二个模板参数 (Alloc) | 默认值为：[allocator](../../../Other/memory/allocator/README.md)<value_type>
 reference       | allocator_type::reference | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type&
