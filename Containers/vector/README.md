@@ -10,8 +10,8 @@
 
 类名                           | 描述
 ------------------------------ | ---------------------
-[vector](vector.md)            | 向量 (类模板)
-[vector&lt;bool&gt;](vector-bool.md) | bool 向量 (类模板特化)
+[vector](vector/README.md)            | 向量 (类模板)
+[vector&lt;bool&gt;](vector-bool/README.md) | bool 向量 (类模板特化)
 
 ## 函数
 
