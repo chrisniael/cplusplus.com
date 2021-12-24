@@ -33,22 +33,22 @@
 | [&lt;cwchar&gt; \(wchar.h)](clibrary/cwchar/README)          | 宽字符 (_头文件_)                 |
 | [&lt;cwctype&gt; \(wctype.h)](clibrary/cwctype/README)       | 宽字符类型 (_头文件_)             |
 
-## [容器](Containers/README)
+## [容器](containers/README)
 
 | 头文件                                                   | 描述                     |
 | -------------------------------------------------------- | ------------------------ |
-| [&lt;array&gt;](Containers/array/README)                 | Array (_头文件_)         |
-| [&lt;bitset&gt;](Containers/bitset/README)               | Bitset (_头文件_)        |
-| [&lt;deque&gt;](Containers/deque/README)                 | Deque (_头文件_)         |
-| [&lt;forward_list&gt;](Containers/forward_list/README)   | Forward list (_头文件_)  |
-| [&lt;list&gt;](Containers/list/README)                   | List (_头文件_)          |
-| [&lt;map&gt;](Containers/map/README)                     | Map (_头文件_)           |
-| [&lt;queue&gt;](Containers/queue/README)                 | Queue (_头文件_)         |
-| [&lt;set&gt;](Containers/set/README)                     | Set (_头文件_)           |
-| [&lt;stack&gt;](Containers/stack/README)                 | Stack (_头文件_)         |
-| [&lt;unordered_map&gt;](Containers/unordered_map/README) | Unordered map (_头文件_) |
-| [&lt;unordered_set&gt;](Containers/unordered_set/README) | Unordered set (_头文件_) |
-| [&lt;vector&gt;](Containers/vector/README)               | Vector (_头文件_)        |
+| [&lt;array&gt;](containers/array/README)                 | Array (_头文件_)         |
+| [&lt;bitset&gt;](containers/bitset/README)               | Bitset (_头文件_)        |
+| [&lt;deque&gt;](containers/deque/README)                 | Deque (_头文件_)         |
+| [&lt;forward_list&gt;](containers/forward_list/README)   | Forward list (_头文件_)  |
+| [&lt;list&gt;](containers/list/README)                   | List (_头文件_)          |
+| [&lt;map&gt;](containers/map/README)                     | Map (_头文件_)           |
+| [&lt;queue&gt;](containers/queue/README)                 | Queue (_头文件_)         |
+| [&lt;set&gt;](containers/set/README)                     | Set (_头文件_)           |
+| [&lt;stack&gt;](containers/stack/README)                 | Stack (_头文件_)         |
+| [&lt;unordered_map&gt;](containers/unordered_map/README) | Unordered map (_头文件_) |
+| [&lt;unordered_set&gt;](containers/unordered_set/README) | Unordered set (_头文件_) |
+| [&lt;vector&gt;](containers/vector/README)               | Vector (_头文件_)        |
 
 ## [输入/输出流库](Input && Output/README)
 
