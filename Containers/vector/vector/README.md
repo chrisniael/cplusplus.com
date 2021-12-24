@@ -4,7 +4,7 @@
 
 <vector>
 
-`templete < class T, class Alloc = allocator<T> > class vector;	//generic template`
+`templete < class T, class Alloc = allocator<T> > class vector; //generic template`
 
 #### vector
 
@@ -20,7 +20,6 @@ vector 容器可能会分配一些额外的存储空间来适应可能的增长�
 
 与其他动态序列式容器([deques](../../deque/deque/README.md)，[lists](../list/list/README.md) 和 [forward_lists](../forward_list/forward_list/README.md))相比，vector 访问它的元素还是很高效的，在尾部添加和移除元素相对也很高效。在除了尾部以外的位置插入或移除元素，vector 都没有其他容器高效，并且比 [lists](../../list/list/README.md) 和 [forward_lists](../../forward_list/forward_list/README.md) 拥有更少的稳定的迭代器（迭代器会失效）。
 
-
 ## 容器属性
 
 #### 序列化
@@ -35,7 +34,6 @@ vector 容器可能会分配一些额外的存储空间来适应可能的增长�
 
 容器使用一个内存分配器对象来动态处理它的存储需求。
 
-
 ## 模板参数
 
 `T`
@@ -49,48 +47,44 @@ vector 容器可能会分配一些额外的存储空间来适应可能的增长�
 内存分配器对象的类型，用来定义存储分配器模型。默认使用 [allocator](../../../Other/memory/allocator/README.md) 类模板，它定义了最简单的内存分配模型并且是与值无关的。<br/>
 别名是成员类型 vector::allocator_type
 
-
 ## 成员类型
 
 #### C++98
 
-类型名                 | 定义                                                                                            | 注释
----------------------- | ------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------
-value_type             | 第一个模板参数 (T)                                                                              |
-allocator_type         | 第二个模板参数 (Alloc)                                                                          | 默认值为：[allocator](../../../Other/memory/allocator/README.md)&lt;value_type&gt;
-reference              | allocator_type::reference                                                                       | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type&
-const_reference        | allocator_type::const_reference                                                                 | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type&
-pointer                | allocator_type::pointer                                                                         | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type*
-const_pointer          | allocator_type::const_pointer                                                                   | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type*
-iterator               | 一个指向 value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md)       | 可以转化为 const_iterator
-const_iterator         | 一个指向 const value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) |
-reverse_iterator       | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;iterator&gt;          |
-const_reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;const_iterator&gt;    |
-difference_type        | 一个有符号整数类型，相当于：iterator_traits&lt;iterator&gt;::difference_type                          | 通常和 [ptrdiff_t](../../../C library/cstddef/ptrdiff_t) 一样
-size_type              | 一个无符号整数类型，可以表示任何 difference_type 的非负值                                       | 通常和 [size_t](../../../C library/cstddef/size_t.md) 一样
+| 类型名                 | 定义                                                                                            | 注释                                                                                   |
+| ---------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| value_type             | 第一个模板参数 (T)                                                                              |
+| allocator_type         | 第二个模板参数 (Alloc)                                                                          | 默认值为：[allocator](../../../Other/memory/allocator/README.md)&lt;value_type&gt;     |
+| reference              | allocator_type::reference                                                                       | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type&        |
+| const_reference        | allocator_type::const_reference                                                                 | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type&  |
+| pointer                | allocator_type::pointer                                                                         | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type\*       |
+| const_pointer          | allocator_type::const_pointer                                                                   | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type\* |
+| iterator               | 一个指向 value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md)       | 可以转化为 const_iterator                                                              |
+| const_iterator         | 一个指向 const value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) |
+| reverse_iterator       | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;iterator&gt;          |
+| const_reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;const_iterator&gt;    |
+| difference_type        | 一个有符号整数类型，相当于：iterator_traits&lt;iterator&gt;::difference_type                    | 通常和 [ptrdiff_t](../../../clibrary/cstddef/ptrdiff_t) 一样                           |
+| size_type              | 一个无符号整数类型，可以表示任何 difference_type 的非负值                                       | 通常和 [size_t](../../../clibrary/cstddef/size_t.md) 一样                              |
 
 #### C++11
 
-类型名                 | 定义                                                                                            | 注释
----------------------- | ------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------
-value_type             | 第一个模板参数 (T)                                                                              |
-allocator_type         | 第二个模板参数 (Alloc)                                                                          | 默认值为：[allocator](../../../Other/memory/allocator/README.md)&lt;value_type&gt;
-reference              | value_type&                                                                                     |
-const_reference        | const value_type&                                                                               |
-pointer                | allocator_traits&lt;allocator_type&gt;::pointer                                                 | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type*
-const_pointer          | allocator_traits&lt;allocator_type&gt;::const_pointer                                           | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type*
-iterator               | 一个指向 value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md)       | 可以转化为 const_iterator
-const_iterator         | 一个指向 const value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) |
-reverse_iterator       | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;iterator&gt;          |
-const_reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;const_iterator&gt;    |
-difference_type        | 一个有符号整数类型，相当于：iterator_traits&lt;iterator&gt;::difference_type                    | 通常和 [ptrdiff_t](../../../C library/cstddef/ptrdiff_t) 一样
-size_type              | 一个无符号整数类型，可以表示任何 difference_type 的非负值                                       | 通常和 [size_t](../../../C library/cstddef/size_t.md) 一样
-
+| 类型名                 | 定义                                                                                            | 注释                                                                                   |
+| ---------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| value_type             | 第一个模板参数 (T)                                                                              |
+| allocator_type         | 第二个模板参数 (Alloc)                                                                          | 默认值为：[allocator](../../../Other/memory/allocator/README.md)&lt;value_type&gt;     |
+| reference              | value_type&                                                                                     |
+| const_reference        | const value_type&                                                                               |
+| pointer                | allocator_traits&lt;allocator_type&gt;::pointer                                                 | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：value_type\*       |
+| const_pointer          | allocator_traits&lt;allocator_type&gt;::const_pointer                                           | 对于默认的 [allocator](../../../Other/memory/allocator/README.md) ：const value_type\* |
+| iterator               | 一个指向 value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md)       | 可以转化为 const_iterator                                                              |
+| const_iterator         | 一个指向 const value_type 的[随机访问迭代器](../../../Other/iterator/random_access_iterator.md) |
+| reverse_iterator       | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;iterator&gt;          |
+| const_reverse_iterator | [reverse_iterator](../../../Other/iterator/reverse_iterator/README.md)&lt;const_iterator&gt;    |
+| difference_type        | 一个有符号整数类型，相当于：iterator_traits&lt;iterator&gt;::difference_type                    | 通常和 [ptrdiff_t](../../../clibrary/cstddef/ptrdiff_t) 一样                           |
+| size_type              | 一个无符号整数类型，可以表示任何 difference_type 的非负值                                       | 通常和 [size_t](../../../clibrary/cstddef/size_t.md) 一样                              |
 
 ## 成员函数
 
-
 ## 非成员函数重载
-
 
 ## 模板特殊化
